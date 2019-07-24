@@ -10,7 +10,7 @@ all_results = []
 
 def resolve_required_set(questions: [], dp, results, i, limit):
     """
-    This can FURTHER BE OPTIMISED VIA ITERATION instead of HEAVY RECURSION (Submission Deadline Limits)
+    This can FURTHER BE OPTIMISED VIA ITERATION instead of HEAVY RECURSION
     
     This function uses simplistic recursion to find all all combinations which can produce required result
     with sum limit equal to as provided
